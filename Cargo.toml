@@ -1,0 +1,18 @@
+[package]
+name = "bevy_mod_simplest_healthbar"
+version = "0.1.0"
+edition = "2021"
+description = "Not really healthbars, but at least it can be used to get some kind of healt indication"
+readme = "README.md"
+authors = ["Kristoffer Ödmark <kristoffer.odmark90@gmail.com>"]
+repository = "https://github.com/TotalKrill/bevy_mod_simplest_healthbar.git"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = {version = "0.10", default-features = false, features = ["bevy_text", "bevy_ui", "bevy_core_pipeline", "bevy_asset", "bevy_render"]}
+# bevy = "0.10"
+
+[dev-dependencies]
+bevy = "0.10"
